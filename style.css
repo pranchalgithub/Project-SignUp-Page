@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(http://2.bp.blogspot.com/-6nZHDDYUWA8/UhnciCnM2AI/AAAAAAAAEUk/CAuEJC8NbGo/s1600/Aparajito+12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+    border-radius: 8px;
+    background-color: rgba(255, 235, 205, 0.301);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 20px;
+    box-shadow: 4px 4px rgb(173, 8, 8), -1em 1em .4em rgb(168, 168, 10);
+}
+
+.logo h1 {
+    font-size: 4.5rem;
+    color: rgb(15, 15, 15);
+    font-family: 'Libre Baskerville', 'sans serif';
+    font-weight: 200;
+    
+}
+
+.left-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text {
+    position: absolute;
+    bottom: 10px;
+    left: 3rem;
+    font-size: 15px;
+    color: antiquewhite;
+    
+}
+
+
+
+/* right side */
+
+.right {
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    justify-content: start;
+}
+
+.right-text {
+    padding: 20px;
+}
+
+.right-text p {
+    font-size: 1.2rem;
+}
+
+.right-text h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+
+/* form section */
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(14, 14, 14);
+    box-shadow: 3px 3px 1em rgb(49, 49, 49);
+}
+
+.form-input {
+    display: flex;
+    flex-flow: column wrap;
+    text-transform: uppercase;
+    width: 40%;
+    height: 60%;
+    font-size: 0.8rem;
+    color: rgb(207, 207, 207);
+    gap: 6px;
+}
+
+input {
+    height: 30px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0.6em rgb(0, 0, 0);
+    color: rgb(228, 228, 228);
+}
+
+button {
+    font-size: 1.2rem;
+    margin: 30px 20px;
+    color: rgb(22, 22, 22);
+    background-color: rgba(105, 91, 91, 0);
+    border: 2px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 30%;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(14, 14, 14);
+    color: rgb(207, 207, 207);
+}
+
+.main-foot {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.main-foot a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 400;
+}
+
+.main-foot a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
